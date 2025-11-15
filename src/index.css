@@ -50,7 +50,7 @@
     --glass-shadow-hover: 0 12px 30px rgba(15, 35, 65, 0.15);
     
     /* Gradients */
-    --gradient-vistron: linear-gradient(135deg, hsl(var(--vistron-deep-blue)) 0%, hsl(var(--vistron-sky-blue)) 45%, hsl(var(--vistron-white)) 100%);
+    --gradient-vistron: radial-gradient(ellipse at center, hsl(var(--vistron-white)) 0%, hsl(var(--vistron-sky-blue)) 70%, hsl(var(--vistron-deep-blue)) 100%);
     --gradient-icon: linear-gradient(135deg, hsl(var(--vistron-sky-blue)), hsl(var(--accent)));
     --gradient-card-subtle: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
     
